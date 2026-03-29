@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="English">
+    <head>
+        <title>Sanjay Sahu Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <h1>Sanjay Sahu</h1>
+        <nav>
+        <a href="#about">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
+        </nav>
+
+        <button id="clickBtn">Click Me</button>
+        <button id="Mode">Change Mode</button>
+
+        <img id="gallery" src="HTML.png" width="50">
+        <button onclick="changeImage()">Change Image</button>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Circle_Pic.jpg" alt="Profile Pic" width="150">
+        <p>Hello! My name is Sanjay Sahu. I am currently pursuing MCA and learning Web Development.
+        I enjoy creating websites and learning new technologies.</p>
+    </section>
+    <section id="Skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section id="Contact">
+        <h2>Contact</h2>
+    <form id="contactForm">
+    Name: <input type="text" id="name">
+    <small id="nameError"></small><br><br>
+
+    Email: <input type="email" id="email">
+    <small id="emailError"></small><br><br>
+
+    Message: <textarea id="message"></textarea>
+    <small id="msgError"></small><br><br>
+
+    <button type="submit">Submit</button>
+    </form>
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>
